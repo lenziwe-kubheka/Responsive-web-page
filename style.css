@@ -8,13 +8,18 @@
   }
 
   .container img {
-
+    width: 400px;
+    height: 400px;
     margin: 10px;
+    margin-left: 100px; /*to create space between image and text
+                        but you have to cancel it for smaller screens the margin is not needed*/
   }
   
   .container .text {
 
     margin: 10px;
-  /*  text-align: justify; */
+    margin-right: 100px; /*to create space between image and text 
+                        but you have to cancel it for smaller screens the margin is not needed*/
+
   }
   
