@@ -10,16 +10,31 @@
   .container img {
     width: 400px;
     height: 400px;
-    margin: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
     margin-left: 100px; /*to create space between image and text
                         but you have to cancel it for smaller screens the margin is not needed*/
   }
   
   .container .text {
-
-    margin: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
     margin-right: 100px; /*to create space between image and text 
                         but you have to cancel it for smaller screens the margin is not needed*/
-
   }
+
+  @media (max-width:885px) {
+    /* styles for screens with a maximum width of 885px */
+    .container .image {
+      margin-right: 10px;
+      margin-left: 10px;  /* we do not need the margin of 100 anymore */
+      width: 250px;
+      height: 250px;
+    }
+    .container .text {
+      margin-right: 10px;   /* We do not need the margin of 100 anymore*/ 
+      margin-left: 10px;
+    }
+  }
+  
   
